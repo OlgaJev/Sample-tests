@@ -21,6 +21,9 @@ When(/^User clicks on Add to cart item button$/,()=>{
     catalogobject.clickAddToCartButton();
 });
 
+When(/^User clicks on logige sisse$/,()=>{
+    catalogobject.clickTopLoginButton();
+});
 Then(/^User moves to Catalog page$/,()=>{
     catalogobject.verifyCatalogPage();
 })
